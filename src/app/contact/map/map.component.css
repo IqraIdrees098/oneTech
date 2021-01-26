@@ -1,0 +1,25 @@
+
+/*********************************
+4.2 Contact Map
+*********************************/
+
+.contact_map
+{
+	width: 100%;
+}
+.google_map
+{
+	width: 100%;
+	height: 400px;
+}
+.map_container
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#map
+{
+	width: 100%;
+	height: calc(100% + 30px);
+}
