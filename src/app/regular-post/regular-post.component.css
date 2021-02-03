@@ -56,3 +56,123 @@
 	font-weight: 500;
 	margin-top: 23px;
 }
+
+
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+
+	.char_item
+	{
+		padding-left: 25px;
+	}
+
+}
+
+
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+
+	.char_col:not(:last-child):not(:nth-child(3))
+	{
+		margin-bottom: 30px;
+	}
+	.char_item
+	{
+		padding-left: 36px;
+	}
+	.blog_post
+	{
+		width: calc((100% - 30px) / 2);
+	}
+
+}
+
+
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+
+	.char_col:nth-child(3)
+	{
+		margin-bottom: 30px;
+	}
+	.char_item
+	{
+		padding-left: 36px;
+	}
+	.blog_post
+	{
+		width: 100%;
+	}
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	h2{font-size: 24px;}
+	p{font-size: 13px;}
+
+	.button
+	{
+		height: 32px;
+	}
+	.button a
+	{
+		font-size: 12px;
+		line-height: 32px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.rating_r i::before
+	{
+		font-size: 14px;
+	}
+	.blog_text
+	{
+		font-size: 16px;
+	}
+	.single_post_quote
+	{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+
+
+}
+
+
+
+/************
+12. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	.single_post_title
+	{
+		font-size: 24px;
+	}
+	.single_post_text p
+	{
+		font-size: 14px;
+	}
+}
+

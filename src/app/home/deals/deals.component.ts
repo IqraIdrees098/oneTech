@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery';
+
+// declare  var jQuery:  any;
+
 
 @Component({
   selector: 'app-deals',
@@ -7,9 +11,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DealsComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
 
-  ngOnInit(): void {
   }
 
-}
+
+  ngOnInit(): void {
+
+  }
+
+
+  }
+
+

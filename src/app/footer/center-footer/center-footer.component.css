@@ -114,3 +114,45 @@
 {
 	margin-top: 42px !important;
 }
+
+
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+
+	.footer_col:not(:last-child)
+	{
+		margin-bottom: 40px;
+	}
+}
+
+
+
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	h2{font-size: 24px;}
+	p{font-size: 13px;}
+
+	.copyright_container
+	{
+		height: auto;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.logos
+	{
+		margin-top: 30px;
+	}
+
+}
+
+

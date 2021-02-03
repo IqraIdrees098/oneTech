@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+// declare function initBrandsSlider(): void;
+
 @Component({
   selector: 'app-brands',
   templateUrl: './brands.component.html',
@@ -7,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BrandsComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+
+    // initBrandsSlider();
+
+   }
 
   ngOnInit(): void {
   }

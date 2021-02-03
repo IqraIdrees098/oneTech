@@ -23,3 +23,19 @@
 	width: 100%;
 	height: calc(100% + 30px);
 }
+
+
+
+
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+  .google_map
+  {
+    height: 300px;
+  }
+}

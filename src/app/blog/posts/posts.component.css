@@ -88,3 +88,64 @@
 	line-height: 48px;
 	font-size: 18px;
 }
+
+
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	.blog_post
+	{
+		width: calc((100% - 30px) / 2);
+	}
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.blog_post
+	{
+		width: 100%;
+	}
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	h2{font-size: 24px;}
+  p{font-size: 13px;}
+
+	.banner_product_image
+	{
+	    right: 15px;
+	}
+	.button
+	{
+		height: 32px;
+	}
+	.button a
+	{
+		font-size: 12px;
+		line-height: 32px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.rating_r i::before
+	{
+		font-size: 14px;
+	}
+	.blog_text
+	{
+		font-size: 16px;
+	}
+
+}
