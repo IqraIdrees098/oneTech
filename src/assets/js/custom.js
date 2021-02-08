@@ -1,6 +1,6 @@
 
 
-  alert('Hello!!!');
+  // alert('Hello!!!');
 
 
 
@@ -544,7 +544,7 @@ $(document).ready(function()
 					0:{items:1},
 					575:{items:2},
 					640:{items:3},
-					768:{items:4},
+          768:{items:4},
 					991:{items:5}
 				}
 			});

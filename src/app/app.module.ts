@@ -43,6 +43,12 @@ import { ShopSidebarComponent } from './shop/shop-sidebar/shop-sidebar.component
 import { ShopContentComponent } from './shop/shop-content/shop-content.component';
 
 
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -87,7 +93,10 @@ import { ShopContentComponent } from './shop/shop-content/shop-content.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    CarouselModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

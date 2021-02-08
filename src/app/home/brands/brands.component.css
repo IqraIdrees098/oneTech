@@ -23,11 +23,16 @@
 }
 .brands_item
 {
-	height: 100%;
+  height: 100%;
+  padding-top: 50px;
+	padding-bottom: 90px;
+
 }
 .brands_item img
 {
-	max-width: 100%;
+  max-width: 100%;
+  text-align: center;
+
 }
 .brands_nav
 {

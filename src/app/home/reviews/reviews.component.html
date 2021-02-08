@@ -13,10 +13,12 @@
 
 					<div class="reviews_slider_container">
 
-						<!-- Reviews Slider -->
-						<div class="owl-carousel owl-theme reviews_slider">
+            <!-- Reviews Slider -->
+            <owl-carousel-o [options]="customOptions">
+						<!-- <div class="owl-carousel owl-theme reviews_slider"> -->
 
-							<!-- Reviews Slider Item -->
+              <!-- Reviews Slider Item -->
+              <ng-template carouselSlide >
 							<div class="owl-item">
 								<div class="review d-flex flex-row align-items-start justify-content-start">
 									<div><div class="review_image"><img src="assets/images/review_1.jpg" alt=""></div></div>
@@ -30,7 +32,9 @@
 									</div>
 								</div>
 							</div>
+            </ng-template>
 
+            <ng-template carouselSlide >
 							<!-- Reviews Slider Item -->
 							<div class="owl-item">
 								<div class="review d-flex flex-row align-items-start justify-content-start">
@@ -44,8 +48,10 @@
 										<div class="review_text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum laoreet.</p></div>
 									</div>
 								</div>
-							</div>
+              </div>
+            </ng-template>
 
+            <ng-template carouselSlide >
 							<!-- Reviews Slider Item -->
 							<div class="owl-item">
 								<div class="review d-flex flex-row align-items-start justify-content-start">
@@ -60,7 +66,9 @@
 									</div>
 								</div>
 							</div>
+            </ng-template>
 
+            <ng-template carouselSlide >
 							<!-- Reviews Slider Item -->
 							<div class="owl-item">
 								<div class="review d-flex flex-row align-items-start justify-content-start">
@@ -75,7 +83,9 @@
 									</div>
 								</div>
 							</div>
+            </ng-template>
 
+            <ng-template carouselSlide >
 							<!-- Reviews Slider Item -->
 							<div class="owl-item">
 								<div class="review d-flex flex-row align-items-start justify-content-start">
@@ -90,7 +100,9 @@
 									</div>
 								</div>
 							</div>
+            </ng-template>
 
+            <ng-template carouselSlide >
 							<!-- Reviews Slider Item -->
 							<div class="owl-item">
 								<div class="review d-flex flex-row align-items-start justify-content-start">
@@ -105,8 +117,9 @@
 									</div>
 								</div>
 							</div>
-
-						</div>
+            </ng-template>
+            <!-- </div> -->
+          </owl-carousel-o>
 						<div class="reviews_dots"></div>
 					</div>
 				</div>

@@ -25,10 +25,11 @@
 					<div class="trends_slider_container">
 
 						<!-- Trends Slider -->
+            <owl-carousel-o [options]="customOptions">
+						<!-- <div class="owl-carousel owl-theme trends_slider"> -->
 
-						<div class="owl-carousel owl-theme trends_slider">
-
-							<!-- Trends Slider Item -->
+              <!-- Trends Slider Item -->
+              <ng-template carouselSlide >
 							<div class="owl-item">
 								<div class="trends_item is_new">
 									<div class="trends_image d-flex flex-column align-items-center justify-content-center"><img src="assets/images/trends_1.jpg" alt=""></div>
@@ -45,8 +46,10 @@
 									</ul>
 									<div class="trends_fav"><i class="fas fa-heart"></i></div>
 								</div>
-							</div>
+              </div>
+            </ng-template>
 
+            <ng-template carouselSlide >
 							<!-- Trends Slider Item -->
 							<div class="owl-item">
 								<div class="trends_item">
@@ -64,8 +67,10 @@
 									</ul>
 									<div class="trends_fav"><i class="fas fa-heart"></i></div>
 								</div>
-							</div>
+              </div>
+            </ng-template>
 
+            <ng-template carouselSlide >
 							<!-- Trends Slider Item -->
 							<div class="owl-item">
 								<div class="trends_item is_new">
@@ -83,8 +88,10 @@
 									</ul>
 									<div class="trends_fav"><i class="fas fa-heart"></i></div>
 								</div>
-							</div>
+              </div>
+            </ng-template>
 
+            <ng-template carouselSlide >
 							<!-- Trends Slider Item -->
 							<div class="owl-item">
 								<div class="trends_item is_new">
@@ -102,8 +109,10 @@
 									</ul>
 									<div class="trends_fav"><i class="fas fa-heart"></i></div>
 								</div>
-							</div>
+              </div>
+            </ng-template>
 
+            <ng-template carouselSlide >
 							<!-- Trends Slider Item -->
 							<div class="owl-item">
 								<div class="trends_item">
@@ -121,8 +130,10 @@
 									</ul>
 									<div class="trends_fav"><i class="fas fa-heart"></i></div>
 								</div>
-							</div>
+              </div>
+            </ng-template>
 
+            <ng-template carouselSlide >
 							<!-- Trends Slider Item -->
 							<div class="owl-item">
 								<div class="trends_item is_new">
@@ -140,9 +151,11 @@
 									</ul>
 									<div class="trends_fav"><i class="fas fa-heart"></i></div>
 								</div>
-							</div>
+              </div>
+            </ng-template>
 
-						</div>
+            <!-- </div> -->
+          </owl-carousel-o>
 					</div>
 				</div>
 
